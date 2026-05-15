@@ -10,7 +10,7 @@ Root of this repo also has: `wrap-up.md`, `wrap-up-starter.md`, `debrief.md`, `d
 |--------|------|
 | takenotes | Course notes scaffold |
 | subtitle | YouTube subtitles via yt-dlp |
-| three-brain | Route work across Claude / GPT / Gemini |
+| three-brain | Route work across Claude / Codex / Gemini; see `three-brain/three-brain.md` |
 | job-hunt-flow | LinkedIn scrape to apply pipeline |
 | ai-employee-antigravity | Antigravity workflow |
 | lab-commit-audit | Git commit hygiene |
