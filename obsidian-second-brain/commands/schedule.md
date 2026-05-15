@@ -1,13 +1,15 @@
-# /schedule — Map stated priorities to the week ahead
+# /schedule — Context-aware scheduling
 
 **Vault:** `YOUR_OBSIDIAN_VAULT` — **`CLAUDE.md`**.
 
-External calendar rarely in vault unless user pasted; note gap honestly.
+Evaluates a **scheduling request** against **calendar** (vault, paste, or ICS), **priorities** in **`wiki/`**, and **hard constraints** the user states before suggesting concrete blocks.
+
+**Request** = text after **`/schedule`**. If empty, ask what to schedule.
 
 ## Do this
 
-1. Read **`wiki/career/job-search-strategy.md`**, **`application-pipeline.md`**, **`overview.md`** (as available) for priorities.
-2. **`wiki/log.md`** and recent daily notes for time claims vs intent.
-3. Output **weekly grid** (generic day blocks OK): deep work vs admin vs networking vs rest.
-4. **Conflicts:** where calendar/paste clashes with wiki-stated priorities; list top 3 **cuts or swaps**.
-5. Optional **`obsidian daily:append`** this week skeleton only if user asks and CLI works.
+1. Extract **hard constraints** (fixed meetings, deadlines, “never mornings”, travel) from user message + any calendar artifacts in vault.
+2. Read **`wiki/career/`** strategy pages, **`wiki/log.md`**, recent dailies for **priorities** vs time already spoken for.
+3. Output **concrete options** (day + time block + what to defer) ranked best-first; flag **conflicts** explicitly.
+4. External calendar rarely in vault unless pasted; say so honestly. No calendar API fiction.
+5. Optional **`obsidian daily:append`** skeleton only if user asks and CLI works.

@@ -2,6 +2,8 @@
 
 **Vault:** `YOUR_OBSIDIAN_VAULT` — **`CLAUDE.md`**.
 
+Deep **~30-day** vault pass with **cross-domain** pattern detection and light **graph-style** linking (clusters, hubs) to surface ideas **across all domains** unless scoped.
+
 Optional scope after **`/ideas`** (e.g. “career only”).
 
 ## Do this

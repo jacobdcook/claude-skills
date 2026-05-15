@@ -1,10 +1,14 @@
-# /emerge — Clusters ripe to become projects, essays, or products
+# /emerge — Ideas the vault implies but never states
 
 **Vault:** `YOUR_OBSIDIAN_VAULT` — **`CLAUDE.md`**.
 
+Surfaces **ideas the vault implies but never states**: conclusions from **scattered premises**, **unnamed patterns**, **unarticulated directions**.
+
+Optional **`[domain]`** after **`/emerge`** narrows the pass.
+
 ## Do this
 
-1. Map **dense `[[clusters]]`** in **`wiki/technical/`** + **`wiki/career/`** + **`wiki/concepts/`** using link neighborhood ideas (mental graph from `rg` on `[[` + shared keywords).
-2. For each emergence **candidate**, list: nucleus notes, gaps (missing sourcing), sensible **next tangible artifact** (repo / blog / outbound message).
-3. Rank top 3 by **reuse + specificity** versus Jacob’s **`job-search-strategy`** and **`all-projects`** if present (avoid fantasy scope).
-4. Offer optional **`wiki/overview.md`** or **`wiki/decisions/`** draft only after user confirms.
+1. Map **dense `[[clusters]]`** and repeated non-obvious collocations in **`wiki/`** (and read-only **`raw/notes/`** if useful) inside the domain or whole vault.
+2. For each **emergence candidate**, list: nucleus notes, the **implicit conclusion**, and what is still **underspecified**.
+3. Rank top **3–5** by reuse + specificity vs stated priorities in **`wiki/log.md`** / career strategy pages when present.
+4. Offer optional **`wiki/`** synthesis only after user confirms.

@@ -1,12 +1,14 @@
-# /trace — Idea evolution across the vault
+# /trace — How an idea evolved across the vault
 
 **Vault:** `YOUR_OBSIDIAN_VAULT` — **`CLAUDE.md`**; **`raw/`** read-only.
 
-**Topic:** take from text after **`/trace`**. Ask once if empty.
+Tracks how an **idea evolved over time** across the vault. Builds a **small synonym / phrase vocabulary** for the topic, then traces the **full arc** (first mention → shifts → today).
+
+**Topic:** text after **`/trace`**. Ask once if empty.
 
 ## Do this
 
-1. **`rg -n -i`** the topic across `wiki/` and `raw/` (include `[[wikilinks]]` variants).
-2. If CLI works: **`obsidian search query="TOPIC"`** + **`obsidian backlinks`** for the strongest anchor note if identifiable.
-3. Build **timeline**: first clear mention (path + inferred date from YAML/filename/context), trajectory of how wording or conclusions shift, current linked notes (**`[[...]]`**).
-4. Respond in markdown **with citations**. Offer optional **`wiki/sources/trace-YYYY-MM-DD-topic-slug.md`** + index/log (confirm first).
+1. Collect **surface forms**: literal string, synonyms, abbreviations, related entity names (**`rg -i`**).
+2. **`rg -n`** across `wiki/` and `raw/` (include `[[wikilinks]]` variants). If CLI works: **`obsidian search`** + **`obsidian backlinks`** on the strongest hub note.
+3. Build **timeline**: first clear mention (path + inferred date), inflection points, current stance and **`[[links]]`** neighborhood.
+4. Respond in markdown **with citations**. Optional **`wiki/sources/trace-...md`** + index/log only after user confirms.

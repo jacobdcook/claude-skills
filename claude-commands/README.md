@@ -1,10 +1,16 @@
 # Slash commands (Claude Code + Cursor)
 
-These Markdown files are **body-only** instructions for agents. Install by copying into your client’s commands folder (same filename).
+These Markdown files are **body-only** instructions for agents. Install by copying into your client’s commands folder (same filename). Replace **`YOUR_OBSIDIAN_VAULT`** with your real vault path (files in this folder use the placeholder).
 
-| File | Claude Code | Cursor |
-|------|-------------|--------|
-| `subtitle.md` | `~/.claude/commands/subtitle.md` | `~/.cursor/commands/subtitle.md` |
-| (other `*.md` here) | `~/.claude/commands/<name>.md` | `~/.cursor/commands/<name>.md` if you use the same flow in Cursor |
+| Install target | Path |
+|----------------|------|
+| Claude Code | `~/.claude/commands/<name>.md` |
+| Cursor | `~/.cursor/commands/<name>.md` |
 
-**`/subtitle`** — one YouTube URL per run, `yt-dlp`, `.srt` on Desktop unless the user asks for another directory. See `subtitle.md`.
+## Vault (Obsidian second brain)
+
+`/context`, `/today`, `/week`, `/schedule`, `/closeday`, `/close-day`, `/ghost`, `/challenge`, `/emerge`, `/contradict`, `/drift`, `/ideas`, `/graduate`, `/trace`, `/connect`, `/compound`, `/bloom`, `/stranger`, `/map`, `/learned`, `/weekly-learnings`, `/backlinks`, `/xdaily`, plus **`wrap-up`** for session capture. See **`obsidian-second-brain/SKILL.md`** for the full slash map.
+
+## Other
+
+`/subtitle` (YouTube `.srt`), `/audit-commit`, `/recall`, `/strategy`, `/debrief` — same install paths.

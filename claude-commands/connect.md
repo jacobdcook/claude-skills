@@ -2,6 +2,8 @@
 
 **Vault:** `YOUR_OBSIDIAN_VAULT` — **`CLAUDE.md`**.
 
+Takes **two domains** (or topics) and uses the vault’s **link graph** to find **non-obvious bridges** and **shared themes** between them.
+
 **Topics A and B** from user message after **`/connect`**. If unclear, ask once.
 
 ## Do this
